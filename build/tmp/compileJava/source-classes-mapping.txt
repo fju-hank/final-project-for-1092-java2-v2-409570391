@@ -1,2 +1,4 @@
 com/fju/Tester.java
  com.fju.Tester
+test/Hosipital.java
+ test.Hosipital
