@@ -1,4 +1,6 @@
-com/fju/Tester.java
- com.fju.Tester
-test/Try.java
- test.Try
+com/fju/Order.java
+ com.fju.Order
+com/fju/Dish.java
+ com.fju.Dish
+com/fju/MenuTester.java
+ com.fju.MenuTester
