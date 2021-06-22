@@ -66,7 +66,6 @@ public class Depression {
 
 
             value = (float)(a*CP+b*FP+c*AP+d*SP+f*EP+g*SLP+h*BP+i*UP+j*DP)/weights;
-            //value=Math.sqrt((a*x*x + b*y*y + c*z*z + d*k*k) /(double)(a+b+c+d));
 
         }
 
