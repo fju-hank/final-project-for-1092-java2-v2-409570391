@@ -1,6 +1,8 @@
-com/fju/Order.java
- com.fju.Order
-com/fju/Dish.java
- com.fju.Dish
-com/fju/MenuTester.java
- com.fju.MenuTester
+com/fju/Role.java
+ com.fju.Role
+com/fju/Warrior.java
+ com.fju.Warrior
+com/fju/Magician.java
+ com.fju.Magician
+com/fju/Test.java
+ com.fju.Test
