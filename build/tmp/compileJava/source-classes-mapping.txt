@@ -2,7 +2,9 @@ com/fju/Role.java
  com.fju.Role
 com/fju/Warrior.java
  com.fju.Warrior
-com/fju/Magician.java
- com.fju.Magician
+com/fju/Monster.java
+ com.fju.Monster
+com/fju/Magican.java
+ com.fju.Magican
 com/fju/Test.java
  com.fju.Test

@@ -1,27 +1,28 @@
 package com.fju;
 
-public class Test {
-    public static void main(String[] args) {
-        demoSwordsMan();
-        demoMagician();
-    }
+public class Test {public static void main(String[] args)
+{
+    int i=0;
+    Warrior warrior = new Warrior();
+    Monster monster = new Monster();
+    for(i=0;;i++)
+    {i+=1;
+        System.out.println("The "+i+" Round start");
+        warrior.fight(monster);
 
-    static void demoSwordsMan() {
-        Warrior warrior = new Warrior();
-        warrior.setName("Matt");
-        warrior.setLevel(1);
-        warrior.setBlood(150);
-        System.out.printf("Warrior", warrior.getName(),
-                warrior.getLevel(), warrior.getBlood());
-    }
+        System.out.println("The "+i+" Round over");
+        System.out.println("Battle statistics");
+        warrior.show();
+        monster.show();
+        i-=1;
+        if(monster.blood<=0)
+        {break;
 
-    static void demoMagician() {
-        Magician magician = new Magician();
-        magician.setName("Marry");
-        magician.setLevel(1);
-        magician.setBlood(100);
-        System.out.printf("Magican", magician.getName(),
-                magician.getLevel(), magician.getBlood());
+        }
     }
-
+    System.out.println("Winner is "+warrior.name);
+    System.out.println("Battle statistics");
+    i+=1;
+    System.out.println(warrior.name+" fight with "+ monster.name+i+" times");
+}
 }

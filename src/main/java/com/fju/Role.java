@@ -2,26 +2,18 @@ package com.fju;
 
 public class Role {
     String name ;
-    int level ;
     int blood ;
-    public int getBlood() {
-        return blood;
-    }
-    public void setBlood(int blood) {
-        this.blood = blood;
-    }
-
-    public int getLevel() {
-        return level;
-    }
-    public void setLevel(int level) {
-        this.level = level;
-    }
-
-    public String getName() {
+    boolean isLife ;
+    public String getName(){
         return name;
     }
-    public void setName(String name) {
-        this.name = name;
+    public void setName(){
+        this.name=name ;
+    }
+    public int getBlood(){
+        return  blood ;
+    }
+    public void setBlood(){
+        this.blood = blood ;
     }
 }
