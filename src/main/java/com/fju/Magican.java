@@ -1,3 +1,4 @@
+
 package com.fju;
 
 public class Magican extends Role {
@@ -5,10 +6,11 @@ public class Magican extends Role {
         name = "Marry" ;
         blood = 100 ;
     }
-    public void fight(){
-    System.out.println("Magic attack");
-}
-    public void cure() {
-        System.out.println("Magic heal");
+    public void fight(Monster monster){
+        System.out.println("Magic attack");
+        monster.injury();
+    }
+    public void show() {
+        System.out.println(blood);
     }
 }

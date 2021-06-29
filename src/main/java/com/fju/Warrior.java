@@ -1,3 +1,4 @@
+
 package com.fju;
 
 public class Warrior extends Role{
