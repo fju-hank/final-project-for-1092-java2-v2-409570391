@@ -11,6 +11,6 @@ public class Magican extends Role {
         monster.injury();
     }
     public void show() {
-        System.out.println(blood);
+        System.out.println(name+" left " +blood +" blood");
     }
 }
